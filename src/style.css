@@ -6,3 +6,36 @@
   box-sizing: border-box;
 }
 
+/* Utility classes */
+.background {
+  background-image: linear-gradient(to right, #6b2284, #a626d3);
+}
+.container {
+  margin: auto;
+  max-width: 550px;
+  width: 100%;
+}
+
+.header {
+  color: #fff;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  padding-left: 20px;
+  gap: 6px;
+  align-items: center;
+  font: 20px;
+}
+.header--title {
+  font-size: 20px;
+}
+.header--project {
+  padding-right: 37px;
+  font-size: 12px;
+  font-weight: 500;
+}
